@@ -1,7 +1,6 @@
-## angular2-seed
+## Angular 2 exercise
 
-A simple starter project demonstrating the basic concepts of Angular 2.
-
+dotCMS exercise based on the angular2-seed starter project. 
 
 ### Usage
 - Clone or fork this repository
