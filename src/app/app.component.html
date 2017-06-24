@@ -1,14 +1,15 @@
-<header>
-  <h1>DotCMS News Listing </h1>
+<header class="container">
+  <h1>DotCMS News Listing</h1>
 </header>
 
-<main>
-  <sidebar></sidebar> 
+<main class="main-content clearfix container">
+  <aside class="sidebar pull-left">
+    <news-list></news-list>
+  </aside>
 	<router-outlet></router-outlet>
-  <news-detail></news-detail>  
 </main>
 
 
 <footer>
-  © 2017
+  <p>dotCMS exercise © 2017 - Luis Rojas Salazar</p>
 </footer>

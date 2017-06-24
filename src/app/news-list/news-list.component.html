@@ -1,0 +1,21 @@
+
+<!--<ul *ngIf="newsList && newsList.length">-->
+<ul class="sideList">
+    <li *ngFor="let news of newsList" class="clearfix">
+        <a [routerLink]="['/news', news.inode]" class="news-link"> 
+            <div class="image-container pull-left">
+                <img class="side-image" src="https://demo.dotcms.com/contentAsset/raw-data/2943b5eb-9105-4dcf-a1c7-87a9d4dc92a6/image" alt=""> 
+            </div>
+            <div class="list-description pull-left">
+                <h3>{{ news.title }}</h3>
+                <span class="date">{{ news.modDate | date }}</span>
+            </div>
+        </a>
+    </li> 
+</ul>
+
+<!--{{ newsList | json }}-->
+
+<h3 *ngIf="!newsList">
+    There are no news.
+</h3>
