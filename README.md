@@ -2,6 +2,12 @@
 
 dotCMS exercise based on the angular2-seed starter project. 
 
+### Stack
+- Angular 2
+- Typescript
+- Observables/Subscribe
+- Webpack 
+
 ### Usage
 - Clone or fork this repository
 - Make sure you have [node.js](https://nodejs.org/) installed version 5+

@@ -8,15 +8,11 @@ import { HttpModule } from '@angular/http';
 
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { NewsListComponent } from './news-list/news-list.component';
-import { NewsDetailComponent } from './news-detail/news-detail.component';
-import { KeysPipe } from './filters/keys-filter.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NewsListComponent,
-    NewsDetailComponent,
-    KeysPipe
+    NewsListComponent
   ],
   imports: [
     BrowserModule,

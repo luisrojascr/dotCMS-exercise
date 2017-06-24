@@ -22,15 +22,6 @@ ul li{
     list-style: none;   
 }
 
-ul.sideList li{
-    padding: 15px 0;
-    border-bottom: 1px solid #efefef;
-}
-
-ul.sideList li:hover{
-    background: #efefef;
-}
-
 .container{
     padding-left: 15px;
     padding-right: 15px;
@@ -39,61 +30,14 @@ ul.sideList li:hover{
 header{
     background: #333;
     padding: 8px;
+    position: fixed;
+    z-index: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 }
 
 header h1{
     color: #FFF;
-}
-
-/*--------------------------------------------------------------
- * sidebar
-------------------------------*/
-
-.sidebar{
-   width: 30%;
-   border-right: 1px solid #efefef;
-}
-
-.image-container{
-    width: 30%;
-}
-
-.side-image{
-    max-width: 100%;
-}
-
-.news-link{
-    display: block;
-    overflow: hidden;
-}
-
-.list-description{
-    width: 70%;
-    padding: 15px;
-}
-
-span.date{
-    display: block; 
-    margin-top: 5px;
-}
-
-/*--------------------------------------------------------------
- * news-detail
-------------------------------*/
-
-.news-detail{
-    width: 70%;
-    padding: 15px;
-}
-
-/*--------------------------------------------------------------
- * footer
-------------------------------*/
-
-footer{
-    margin-top: 30px;
-}
-
-footer p{
-    text-align: center;
 }
